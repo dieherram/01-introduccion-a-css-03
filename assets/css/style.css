@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../imgs/background.png");
+  padding: 5em;
+}
+
+p,
+span,
+a,
+h1,
+h2 {
+  font-family: system-ui, "Segoe UI", -apple-system, sans-serif;
+}
+
+span {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 7.5em;
+}
+
+h1,
+header p {
+  color: white;
+  margin: 0.1em;
+}
+
+section {
+  background-color: #ffffff;
+}
+
+p,
+h2 {
+  color: #333333;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+a {
+  color: #004695;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+table td h2 {
+  margin-bottom: 1em;
+}
+
+table td p,
+table td a,
+button {
+  margin: 1em 0 1em 0;
+}
+
+.table-uno-img,
+.table-dos-img,
+.table-tres-img,
+header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.table-uno-img,
+.table-dos-img,
+.table-tres-img {
+  height: 30em;
+}
+
+.table-uno-img {
+  background-image: url("../imgs/console-joystick.jpg");
+}
+
+.table-dos-img {
+  background-image: url("../imgs/console-ingame.jpg");
+}
+
+.table-tres-img {
+  background-image: url("../imgs/console-include-games.jpg");
+}
+
+header,
+.table-tres-txt,
+footer {
+  text-align: center;
+}
+
+.table-uno-txt,
+.table-dos-txt,
+.table-tres-txt {
+  padding: 6em;
+}
+
+button {
+  display: block;
+  padding: 1.5em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 3em;
+  background-color: #fff;
+  color: #ffc107;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  border: #ffc107 0.3em solid;
+}
+
+button:hover {
+  background-color: #ffc107;
+  color: #333333;
+}
+
+footer {
+  background-color: #161616;
+  padding: 1em;
+}
+
+footer p {
+  color: #f5f5f5;
+}
