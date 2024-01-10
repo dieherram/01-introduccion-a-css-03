@@ -48,5 +48,5 @@ Para garantizar una estructura clara y organizada, utilicé las etiquetas de HTM
 
 ## Cómo Iniciar 🚀
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/landing-page-sega-genesis.git`
+1. Clona este repositorio: `git clone https://github.com/dieherram/landing-page-sega-genesis.git`
 2. Abre el archivo `index.html` en tu navegador.
